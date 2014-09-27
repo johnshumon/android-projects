@@ -16,6 +16,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.InputMethodManager;
@@ -23,6 +24,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -56,6 +58,9 @@ public class MainActivity extends ListActivity {
 
         ImageButton saveButton = (ImageButton) findViewById(R.id.saveButton);
         saveButton.setOnClickListener(saveButtonListener);
+
+        Button searchButton = (Button) findViewById(R.id.searchButton);
+        searchButton.setOnClickListener(searchButtonListener);
 
         getListView().setOnItemClickListener(itemClickListener);
         getListView().setOnItemLongClickListener(itemLongClickListener);
@@ -92,6 +97,45 @@ public class MainActivity extends ListActivity {
             } // end else
         } // end onClick
     }; // end OnClickListener
+
+    public OnClickListener searchButtonListener = new OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            if (queryEditText.getText().length() > 0 &&
+                    tagEditText.getText().length() > 0)
+            {
+//                addTaggedSearch(queryEditText.getText().toString(), tagEditText.getText().toString());
+//                queryEditText.setText(""); // clear field for new search
+//                tagEditText.setText(""); // clear field for new search
+
+                String tag = queryEditText.getText().toString();
+//                System.out.print("tag: " + tag);
+                Log.d("tag: ", tag);
+                String urlString = getString(R.string.searchURL) +
+                        Uri.encode(tag, "UTF-8");
+                Log.d("urlString: ", urlString);
+                Intent webIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(urlString));
+                startActivity(webIntent);
+
+//                ((InputMethodManager)
+//                        getSystemService(Context.INPUT_METHOD_SERVICE)).hideSoftInputFromInputMethod
+//                        (tagEditText.getWindowToken(), 0);
+            } // end if
+
+            else
+            {
+                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+
+                builder.setMessage(R.string.missingMessage);
+
+                builder.setPositiveButton(R.string.ok, null);
+
+                AlertDialog errorDialog = builder.create();
+
+                errorDialog.show();
+            } // end else
+        }
+    };
 
     private void addTaggedSearch(String query, String tag){
         SharedPreferences.Editor prefEditor = savedSearches.edit();

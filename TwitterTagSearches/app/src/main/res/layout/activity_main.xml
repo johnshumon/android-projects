@@ -39,6 +39,13 @@
             android:imeOptions="actionDone"
             android:layout_marginTop="@dimen/margin_top" />
 
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/searchButton" />
+
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
