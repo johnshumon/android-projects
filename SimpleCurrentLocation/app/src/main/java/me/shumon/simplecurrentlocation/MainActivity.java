@@ -44,24 +44,11 @@ public class MainActivity extends Activity implements LocationListener{
 
             @Override
             public void onMapClick(LatLng latLng) {
-				/*
-				 * LatLng:Class will give us selected position lattigude and
-				 * longitude values
-				 */
+				// LatLng:Class provides selected position's lat and long
                 Toast.makeText(getApplicationContext(), latLng.toString(),
                         Toast.LENGTH_LONG).show();
             }
         });
-
-//        try {
-//            // Loading map
-//            initilizeMap();
-//
-//        }
-//        catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
     }
 
     @Override
@@ -97,32 +84,5 @@ public class MainActivity extends Activity implements LocationListener{
     public void onProviderDisabled(String s) {
 
     }
-
-    /**
-     * function to load map. If map is not created it will create it for you
-     * */
-//    private void initilizeMap() {
-//        if (googleMap == null) {
-//            googleMap = ((MapFragment) getFragmentManager().findFragmentById(
-//                    R.id.map)).getMap();
-//
-//            googleMap.setMyLocationEnabled(true);
-//
-//            // check if map is created successfully or not
-//            if (googleMap == null) {
-//                Toast.makeText(getApplicationContext(),
-//                        "Sorry! unable to create maps", Toast.LENGTH_SHORT)
-//                        .show();
-//            }
-//        }
-//    }
-
-
-
-//    @Override
-//    protected void onResume() {
-//        super.onResume();
-//        initilizeMap();
-//    }
 
 }
