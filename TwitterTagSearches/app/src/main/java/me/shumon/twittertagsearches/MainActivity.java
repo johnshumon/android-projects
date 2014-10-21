@@ -104,22 +104,13 @@ public class MainActivity extends ListActivity {
             if (queryEditText.getText().length() > 0 &&
                     tagEditText.getText().length() > 0)
             {
-//                addTaggedSearch(queryEditText.getText().toString(), tagEditText.getText().toString());
-//                queryEditText.setText(""); // clear field for new search
-//                tagEditText.setText(""); // clear field for new search
 
                 String tag = queryEditText.getText().toString();
-//                System.out.print("tag: " + tag);
-                Log.d("tag: ", tag);
-                String urlString = getString(R.string.searchURL) +
-                        Uri.encode(tag, "UTF-8");
-                Log.d("urlString: ", urlString);
+                String urlString = getString(R.string.searchURL) + Uri.encode(tag, "UTF-8");
+
                 Intent webIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(urlString));
                 startActivity(webIntent);
 
-//                ((InputMethodManager)
-//                        getSystemService(Context.INPUT_METHOD_SERVICE)).hideSoftInputFromInputMethod
-//                        (tagEditText.getWindowToken(), 0);
             } // end if
 
             else
@@ -219,24 +210,12 @@ public class MainActivity extends ListActivity {
         } // end method onItemClick
     }; // end OnItemLongClickListener
 
-//    private void shareSearch(String tag){
-//
-//        String urlString = getString(R.string.searchURL) + Uri.encode(savedSearches.getString(tag, ""), "UTF-8");
-//
-//        Intent shareIntent = new Intent();
-//        shareIntent.setAction(Intent.ACTION_SEND);
-//        shareIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.shareMessage, urlString));
-//        shareIntent.setType("text/plain");
-//
-//        startActivity(Intent.createChooser(shareIntent, getString(R.string.shareSearch)));
-//    }
 
 
     private void shareSearch(String tag)
     {
         // create the URL representing the search
-        String urlString = getString(R.string.searchURL) +
-                Uri.encode(savedSearches.getString(tag, ""), "UTF-8");
+        String urlString = getString(R.string.searchURL) + Uri.encode(savedSearches.getString(tag, ""), "UTF-8");
 
         // create Intent to share urlString
         Intent shareIntent = new Intent();
@@ -299,24 +278,4 @@ public class MainActivity extends ListActivity {
     } // end method deleteSearch
 
 
-
-
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.main, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//        return super.onOptionsItemSelected(item);
-//    }
 }

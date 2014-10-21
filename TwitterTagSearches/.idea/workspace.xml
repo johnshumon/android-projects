@@ -50,9 +50,27 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.653846" vertical-offset="315" max-vertical-offset="1470">
+            <state vertical-scroll-proportion="-20.76923" vertical-offset="0" max-vertical-offset="1470">
               <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-              <folding />
+              <folding>
+                <element signature="e#227#262#0" expanded="true" />
+                <element signature="e#288#323#0" expanded="true" />
+                <element signature="e#347#380#0" expanded="true" />
+                <element signature="e#407#440#0" expanded="true" />
+                <element signature="e#744#766#0" expanded="true" />
+                <element signature="e#1285#1305#0" expanded="true" />
+                <element signature="e#1462#1481#0" expanded="true" />
+                <element signature="e#1929#1954#0" expanded="true" />
+                <element signature="e#2246#2279#0" expanded="true" />
+                <element signature="e#2368#2403#0" expanded="true" />
+                <element signature="e#2433#2468#0" expanded="true" />
+                <element signature="e#2496#2529#0" expanded="true" />
+                <element signature="e#2797#2822#0" expanded="true" />
+                <element signature="e#2941#2974#0" expanded="true" />
+                <element signature="e#3240#3273#0" expanded="true" />
+                <element signature="e#3311#3343#0" expanded="true" />
+                <element signature="e#3384#3416#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,30 +78,40 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/me/shumon/twittertagsearches/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5" vertical-offset="1018" max-vertical-offset="4170">
-              <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+            <state vertical-scroll-proportion="2.195122" vertical-offset="0" max-vertical-offset="3900">
+              <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
               <folding>
                 <element signature="e#2551#3631#0" expanded="true" />
                 <element signature="e#3388#3411#0" expanded="true" />
                 <element signature="e#3457#3468#0" expanded="true" />
                 <element signature="e#3609#3610#0" expanded="true" />
-                <element signature="e#3707#5235#0" expanded="true" />
-                <element signature="e#4358#4387#0" expanded="true" />
-                <element signature="e#5007#5030#0" expanded="true" />
-                <element signature="e#5076#5087#0" expanded="true" />
-                <element signature="e#5228#5229#0" expanded="true" />
-                <element signature="e#5709#6189#0" expanded="true" />
-                <element signature="e#5943#5972#0" expanded="true" />
-                <element signature="e#6182#6183#0" expanded="true" />
-                <element signature="e#6658#6703#0" expanded="true" />
-                <element signature="e#7635#7661#0" expanded="true" />
-                <element signature="e#8819#8848#0" expanded="true" />
-                <element signature="e#9112#9144#0" expanded="true" />
-                <element signature="e#9195#9238#0" expanded="true" />
-                <element signature="e#9401#9432#0" expanded="true" />
-                <element signature="e#9685#9724#0" expanded="true" />
-                <element signature="e#9818#9844#0" expanded="true" />
-                <element signature="e#10232#10258#0" expanded="true" />
+                <element signature="e#3707#4618#0" expanded="true" />
+                <element signature="e#4017#4046#0" expanded="true" />
+                <element signature="e#4390#4413#0" expanded="true" />
+                <element signature="e#4459#4470#0" expanded="true" />
+                <element signature="e#4611#4612#0" expanded="true" />
+                <element signature="e#5092#5572#0" expanded="true" />
+                <element signature="e#5326#5355#0" expanded="true" />
+                <element signature="e#5565#5566#0" expanded="true" />
+                <element signature="e#5627#7530#0" expanded="true" />
+                <element signature="e#6041#6086#0" expanded="true" />
+                <element signature="e#6141#6890#0" expanded="true" />
+                <element signature="e#6836#6837#0" expanded="true" />
+                <element signature="e#7018#7044#0" expanded="true" />
+                <element signature="e#7062#7352#0" expanded="true" />
+                <element signature="e#7333#7334#0" expanded="true" />
+                <element signature="e#7497#7498#0" expanded="true" />
+                <element signature="e#7690#7719#0" expanded="true" />
+                <element signature="e#7967#7999#0" expanded="true" />
+                <element signature="e#8050#8093#0" expanded="true" />
+                <element signature="e#8256#8287#0" expanded="true" />
+                <element signature="e#8540#8579#0" expanded="true" />
+                <element signature="e#8673#8699#0" expanded="true" />
+                <element signature="e#8717#8960#0" expanded="true" />
+                <element signature="e#8949#8950#0" expanded="true" />
+                <element signature="e#9087#9113#0" expanded="true" />
+                <element signature="e#9131#9801#0" expanded="true" />
+                <element signature="e#9789#9790#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -893,7 +921,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4235188254293" />
+        <entry key="$PROJECT_DIR$" value="4235718701546" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1188,8 +1216,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1350,7 +1379,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1365,7 +1393,7 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="nex_4" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -1374,19 +1402,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -1414,6 +1429,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1517,12 +1545,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="52" width="1366" height="716" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1569,6 +1597,75 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1470">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="e#227#262#0" expanded="true" />
+            <element signature="e#288#323#0" expanded="true" />
+            <element signature="e#347#380#0" expanded="true" />
+            <element signature="e#407#440#0" expanded="true" />
+            <element signature="e#744#766#0" expanded="true" />
+            <element signature="e#1285#1305#0" expanded="true" />
+            <element signature="e#1462#1481#0" expanded="true" />
+            <element signature="e#1929#1954#0" expanded="true" />
+            <element signature="e#2246#2279#0" expanded="true" />
+            <element signature="e#2368#2403#0" expanded="true" />
+            <element signature="e#2433#2468#0" expanded="true" />
+            <element signature="e#2496#2529#0" expanded="true" />
+            <element signature="e#2797#2822#0" expanded="true" />
+            <element signature="e#2941#2974#0" expanded="true" />
+            <element signature="e#3240#3273#0" expanded="true" />
+            <element signature="e#3311#3343#0" expanded="true" />
+            <element signature="e#3384#3416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/shumon/twittertagsearches/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="4515">
+          <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+          <folding>
+            <element signature="e#2551#3631#0" expanded="true" />
+            <element signature="e#3388#3411#0" expanded="true" />
+            <element signature="e#3457#3468#0" expanded="true" />
+            <element signature="e#3609#3610#0" expanded="true" />
+            <element signature="e#3707#4618#0" expanded="true" />
+            <element signature="e#4017#4046#0" expanded="true" />
+            <element signature="e#4390#4413#0" expanded="true" />
+            <element signature="e#4459#4470#0" expanded="true" />
+            <element signature="e#4611#4612#0" expanded="true" />
+            <element signature="e#5092#5572#0" expanded="true" />
+            <element signature="e#5326#5355#0" expanded="true" />
+            <element signature="e#5565#5566#0" expanded="true" />
+            <element signature="e#5627#7530#0" expanded="true" />
+            <element signature="e#6041#6086#0" expanded="true" />
+            <element signature="e#6141#6890#0" expanded="true" />
+            <element signature="e#6836#6837#0" expanded="true" />
+            <element signature="e#7018#7044#0" expanded="true" />
+            <element signature="e#7062#7352#0" expanded="true" />
+            <element signature="e#7333#7334#0" expanded="true" />
+            <element signature="e#7497#7498#0" expanded="true" />
+            <element signature="e#7690#7719#0" expanded="true" />
+            <element signature="e#7967#7999#0" expanded="true" />
+            <element signature="e#8050#8093#0" expanded="true" />
+            <element signature="e#8256#8287#0" expanded="true" />
+            <element signature="e#8540#8579#0" expanded="true" />
+            <element signature="e#8673#8699#0" expanded="true" />
+            <element signature="e#8717#8960#0" expanded="true" />
+            <element signature="e#8949#8950#0" expanded="true" />
+            <element signature="e#9087#9113#0" expanded="true" />
+            <element signature="e#9131#9801#0" expanded="true" />
+            <element signature="e#9789#9790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32392028" vertical-offset="0" max-vertical-offset="602">
@@ -1582,38 +1679,66 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.653846" vertical-offset="315" max-vertical-offset="1470">
+        <state vertical-scroll-proportion="-20.76923" vertical-offset="0" max-vertical-offset="1470">
           <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#227#262#0" expanded="true" />
+            <element signature="e#288#323#0" expanded="true" />
+            <element signature="e#347#380#0" expanded="true" />
+            <element signature="e#407#440#0" expanded="true" />
+            <element signature="e#744#766#0" expanded="true" />
+            <element signature="e#1285#1305#0" expanded="true" />
+            <element signature="e#1462#1481#0" expanded="true" />
+            <element signature="e#1929#1954#0" expanded="true" />
+            <element signature="e#2246#2279#0" expanded="true" />
+            <element signature="e#2368#2403#0" expanded="true" />
+            <element signature="e#2433#2468#0" expanded="true" />
+            <element signature="e#2496#2529#0" expanded="true" />
+            <element signature="e#2797#2822#0" expanded="true" />
+            <element signature="e#2941#2974#0" expanded="true" />
+            <element signature="e#3240#3273#0" expanded="true" />
+            <element signature="e#3311#3343#0" expanded="true" />
+            <element signature="e#3384#3416#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/shumon/twittertagsearches/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5" vertical-offset="1018" max-vertical-offset="4170">
-          <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+        <state vertical-scroll-proportion="2.195122" vertical-offset="0" max-vertical-offset="3900">
+          <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
           <folding>
             <element signature="e#2551#3631#0" expanded="true" />
             <element signature="e#3388#3411#0" expanded="true" />
             <element signature="e#3457#3468#0" expanded="true" />
             <element signature="e#3609#3610#0" expanded="true" />
-            <element signature="e#3707#5235#0" expanded="true" />
-            <element signature="e#4358#4387#0" expanded="true" />
-            <element signature="e#5007#5030#0" expanded="true" />
-            <element signature="e#5076#5087#0" expanded="true" />
-            <element signature="e#5228#5229#0" expanded="true" />
-            <element signature="e#5709#6189#0" expanded="true" />
-            <element signature="e#5943#5972#0" expanded="true" />
-            <element signature="e#6182#6183#0" expanded="true" />
-            <element signature="e#6658#6703#0" expanded="true" />
-            <element signature="e#7635#7661#0" expanded="true" />
-            <element signature="e#8819#8848#0" expanded="true" />
-            <element signature="e#9112#9144#0" expanded="true" />
-            <element signature="e#9195#9238#0" expanded="true" />
-            <element signature="e#9401#9432#0" expanded="true" />
-            <element signature="e#9685#9724#0" expanded="true" />
-            <element signature="e#9818#9844#0" expanded="true" />
-            <element signature="e#10232#10258#0" expanded="true" />
+            <element signature="e#3707#4618#0" expanded="true" />
+            <element signature="e#4017#4046#0" expanded="true" />
+            <element signature="e#4390#4413#0" expanded="true" />
+            <element signature="e#4459#4470#0" expanded="true" />
+            <element signature="e#4611#4612#0" expanded="true" />
+            <element signature="e#5092#5572#0" expanded="true" />
+            <element signature="e#5326#5355#0" expanded="true" />
+            <element signature="e#5565#5566#0" expanded="true" />
+            <element signature="e#5627#7530#0" expanded="true" />
+            <element signature="e#6041#6086#0" expanded="true" />
+            <element signature="e#6141#6890#0" expanded="true" />
+            <element signature="e#6836#6837#0" expanded="true" />
+            <element signature="e#7018#7044#0" expanded="true" />
+            <element signature="e#7062#7352#0" expanded="true" />
+            <element signature="e#7333#7334#0" expanded="true" />
+            <element signature="e#7497#7498#0" expanded="true" />
+            <element signature="e#7690#7719#0" expanded="true" />
+            <element signature="e#7967#7999#0" expanded="true" />
+            <element signature="e#8050#8093#0" expanded="true" />
+            <element signature="e#8256#8287#0" expanded="true" />
+            <element signature="e#8540#8579#0" expanded="true" />
+            <element signature="e#8673#8699#0" expanded="true" />
+            <element signature="e#8717#8960#0" expanded="true" />
+            <element signature="e#8949#8950#0" expanded="true" />
+            <element signature="e#9087#9113#0" expanded="true" />
+            <element signature="e#9131#9801#0" expanded="true" />
+            <element signature="e#9789#9790#0" expanded="true" />
           </folding>
         </state>
       </provider>
