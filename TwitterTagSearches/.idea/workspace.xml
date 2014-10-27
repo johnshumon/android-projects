@@ -50,8 +50,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.76923" vertical-offset="0" max-vertical-offset="1470">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state vertical-scroll-proportion="-10.692307" vertical-offset="907" max-vertical-offset="1470">
+              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
               <folding>
                 <element signature="e#227#262#0" expanded="true" />
                 <element signature="e#288#323#0" expanded="true" />
@@ -78,8 +78,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/me/shumon/twittertagsearches/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.195122" vertical-offset="0" max-vertical-offset="3900">
-              <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.4626087" vertical-offset="169" max-vertical-offset="3900">
+              <caret line="56" column="32" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="32" />
               <folding>
                 <element signature="e#2551#3631#0" expanded="true" />
                 <element signature="e#3388#3411#0" expanded="true" />
@@ -1186,9 +1186,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="52" />
+    <option name="y" value="24" />
     <option name="width" value="1366" />
-    <option name="height" value="716" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1544,7 +1544,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="52" width="1366" height="716" extended-state="7" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1679,8 +1679,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.76923" vertical-offset="0" max-vertical-offset="1470">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state vertical-scroll-proportion="-10.692307" vertical-offset="907" max-vertical-offset="1470">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
           <folding>
             <element signature="e#227#262#0" expanded="true" />
             <element signature="e#288#323#0" expanded="true" />
@@ -1705,8 +1705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/shumon/twittertagsearches/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.195122" vertical-offset="0" max-vertical-offset="3900">
-          <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.4626087" vertical-offset="169" max-vertical-offset="3900">
+          <caret line="56" column="32" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="32" />
           <folding>
             <element signature="e#2551#3631#0" expanded="true" />
             <element signature="e#3388#3411#0" expanded="true" />
