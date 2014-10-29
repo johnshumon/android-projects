@@ -1,4 +1,4 @@
-android-projects
+# ANDROID-PROJECTS
 ================
 
 This repository contains all android projects I have developed as either hobby project or assignment.
@@ -7,11 +7,11 @@ This repository contains all android projects I have developed as either hobby p
 
 
 
-Some useful commands that will help regarding different aspects of git operations. Trying to put together as many as possible.
+#### Some useful commands that will help regarding different aspects of git operations. Trying to put together as many as possible.
 ===================================================================================================================
 
 
-Remove directory from remote repository after adding them to .gitignore.
+#### Remove directory from remote repository after adding them to .gitignore.
 ===========================================================================
 The rules in your .gitignore file only apply to untracked files. Since the files under that directory were already committed in your repository, you have to unstage them, create a commit, and push that to GitHub:
 
