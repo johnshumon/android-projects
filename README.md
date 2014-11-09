@@ -29,9 +29,11 @@ git push origin master
 
 svn checkout https://github.com/syeed007/Android-Projects/trunk/ModernArtUI
 
-tree/master is being replaced with trunk.
+Original url was: https://github.com/syeed007/Android-Projects/tree/master/ModernArtUI
 
-[original post](http://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo/18194523#18194523)
+**tree/master** is being replaced by **trunk**.
+
+[original post here](http://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo/18194523#18194523)
 
 
 
