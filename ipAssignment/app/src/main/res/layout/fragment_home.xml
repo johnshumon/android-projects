@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parent linear layout with vertical orientation -->
+
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        >
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:id="@+id/add"
+            android:layout_marginLeft="@dimen/button_margin_left"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:layout_marginRight="@dimen/button_margin_right"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:id="@+id/delete"
+            android:layout_marginRight="@dimen/button_margin_right"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:layout_marginLeft="@dimen/button_margin_left"
+            android:layout_toRightOf="@id/add"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:paddingBottom="@dimen/button_margin_bottom"
+        android:layout_below="@+id/header"
+        />
+
+    <RelativeLayout
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/footer"
+        android:layout_marginTop="@dimen/button_margin_bottom">
+
+        <GridView
+            android:id="@+id/gridViewItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnWidth="90dp"
+            android:numColumns="3"
+            android:verticalSpacing="3dp"
+            android:horizontalSpacing="3dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/homeFooterText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+

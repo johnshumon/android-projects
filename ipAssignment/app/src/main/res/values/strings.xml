@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ipAssignment</string>
+
+
+    <string name="title_home">Home</string>
+    <string name="title_screen1">Screen 1</string>
+    <string name="title_screen2">Screen 2</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="red_button_text">Red</string>
+    <string name="blue_button_text">Blue</string>
+    <string name="user_preference">User preferences</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
